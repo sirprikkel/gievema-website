@@ -8,14 +8,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>tailwind.config={theme:{extend:{colors:{primary:'#0F172A',secondary:'#334155',cta:'#0369A1','cta-hover':'#025C8C',background:'#F8FAFC',surface:'#FFFFFF',text:'#020617','text-muted':'#64748B',border:'#E2E8F0'},fontFamily:{heading:['Lexend','sans-serif'],body:['Source Sans 3','sans-serif']},borderRadius:{'soft':'10px','card':'12px'},boxShadow:{'soft':'0 2px 4px rgba(0,0,0,0.06)','soft-md':'0 4px 6px rgba(0,0,0,0.08)','soft-lg':'0 10px 15px rgba(0,0,0,0.08)'}}}}</script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#0F172A',secondary:'#334155',cta:'#CC0000','cta-hover':'#A30000',background:'#FFFBF5',surface:'#FFFFFF',text:'#020617','text-muted':'#64748B',border:'#E2E8F0'},fontFamily:{heading:['Lexend','sans-serif'],body:['Source Sans 3','sans-serif']},borderRadius:{'soft':'10px','card':'12px'},boxShadow:{'soft':'0 2px 4px rgba(0,0,0,0.06)','soft-md':'0 4px 6px rgba(0,0,0,0.08)','soft-lg':'0 10px 15px rgba(0,0,0,0.08)'}}}}</script>
     <style>
         *{font-family:'Source Sans 3',sans-serif}h1,h2,h3,h4,h5,h6{font-family:'Lexend',sans-serif}
         .soft-card{background:#FFF;border-radius:12px;box-shadow:0 2px 4px rgba(0,0,0,0.06);transition:all 200ms ease}
         .soft-card:hover{box-shadow:0 10px 15px rgba(0,0,0,0.08);transform:translateY(-2px)}
-        .btn-primary{background:#0369A1;color:white;padding:12px 28px;border-radius:8px;font-weight:600;font-family:'Lexend',sans-serif;transition:all 200ms ease;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
-        .btn-primary:hover{background:#025C8C;transform:translateY(-1px);box-shadow:0 4px 6px rgba(3,105,161,0.3)}
-        a:focus-visible,button:focus-visible{outline:3px solid #0369A1;outline-offset:2px}
+        .btn-primary{background:#CC0000;color:white;padding:12px 28px;border-radius:8px;font-weight:600;font-family:'Lexend',sans-serif;transition:all 200ms ease;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+        .btn-primary:hover{background:#A30000;transform:translateY(-1px);box-shadow:0 4px 6px rgba(204,0,0,0.3)}
+        a:focus-visible,button:focus-visible{outline:3px solid #CC0000;outline-offset:2px}
         html{scroll-behavior:smooth}
         .mobile-menu{transform:translateX(100%);transition:transform 300ms ease}.mobile-menu.open{transform:translateX(0)}
         @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
@@ -85,28 +85,28 @@
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="soft-card p-6 text-center">
-                    <div class="w-14 h-14 rounded-soft bg-sky-50 flex items-center justify-center mx-auto mb-4">
+                    <div class="w-14 h-14 rounded-soft bg-amber-50 flex items-center justify-center mx-auto mb-4">
                         <svg class="w-7 h-7 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                     </div>
                     <h3 class="font-heading font-600 text-primary mb-2">Kwaliteit</h3>
                     <p class="text-text-muted text-sm">Elke machine wordt uitvoerig getest voordat hij de fabriek verlaat.</p>
                 </div>
                 <div class="soft-card p-6 text-center">
-                    <div class="w-14 h-14 rounded-soft bg-sky-50 flex items-center justify-center mx-auto mb-4">
+                    <div class="w-14 h-14 rounded-soft bg-amber-50 flex items-center justify-center mx-auto mb-4">
                         <svg class="w-7 h-7 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                     </div>
                     <h3 class="font-heading font-600 text-primary mb-2">Bedrijfszekerheid</h3>
                     <p class="text-text-muted text-sm">Robuuste machines die jaren probleemloos meedraaien.</p>
                 </div>
                 <div class="soft-card p-6 text-center">
-                    <div class="w-14 h-14 rounded-soft bg-sky-50 flex items-center justify-center mx-auto mb-4">
+                    <div class="w-14 h-14 rounded-soft bg-amber-50 flex items-center justify-center mx-auto mb-4">
                         <svg class="w-7 h-7 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
                     </div>
                     <h3 class="font-heading font-600 text-primary mb-2">Veiligheid</h3>
                     <p class="text-text-muted text-sm">Veilig ontworpen machines met oog voor de gebruiker.</p>
                 </div>
                 <div class="soft-card p-6 text-center">
-                    <div class="w-14 h-14 rounded-soft bg-sky-50 flex items-center justify-center mx-auto mb-4">
+                    <div class="w-14 h-14 rounded-soft bg-amber-50 flex items-center justify-center mx-auto mb-4">
                         <svg class="w-7 h-7 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6z"/></svg>
                     </div>
                     <h3 class="font-heading font-600 text-primary mb-2">Eenvoud</h3>
@@ -154,7 +154,7 @@
             </div>
             <div class="border-t border-slate-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-gray-500 text-xs">KvK: 69183945 · BTW: NL8577.72.089.B.01</p>
-                <p class="text-gray-500 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="text-cta hover:text-sky-300 cursor-pointer transition-colors duration-200">Code Lieshout</a></p>
+                <p class="text-gray-500 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="text-cta hover:text-amber-300 cursor-pointer transition-colors duration-200">Code Lieshout</a></p>
             </div>
         </div>
     </footer>

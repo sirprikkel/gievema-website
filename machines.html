@@ -14,8 +14,8 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#0F172A', secondary: '#334155', cta: '#0369A1', 'cta-hover': '#025C8C',
-                        background: '#F8FAFC', surface: '#FFFFFF', text: '#020617', 'text-muted': '#64748B', border: '#E2E8F0',
+                        primary: '#0F172A', secondary: '#334155', cta: '#CC0000', 'cta-hover': '#A30000',
+                        background: '#FFFBF5', surface: '#FFFFFF', text: '#020617', 'text-muted': '#64748B', border: '#E2E8F0',
                     },
                     fontFamily: { heading: ['Lexend', 'sans-serif'], body: ['Source Sans 3', 'sans-serif'] },
                     borderRadius: { 'soft': '10px', 'card': '12px' },
@@ -29,9 +29,9 @@
         h1, h2, h3, h4, h5, h6 { font-family: 'Lexend', sans-serif; }
         .soft-card { background: #FFF; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.06); transition: all 200ms ease; }
         .soft-card:hover { box-shadow: 0 10px 15px rgba(0,0,0,0.08); transform: translateY(-2px); }
-        .btn-primary { background: #0369A1; color: white; padding: 12px 28px; border-radius: 8px; font-weight: 600; font-family: 'Lexend', sans-serif; transition: all 200ms ease; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
-        .btn-primary:hover { background: #025C8C; transform: translateY(-1px); box-shadow: 0 4px 6px rgba(3,105,161,0.3); }
-        a:focus-visible, button:focus-visible { outline: 3px solid #0369A1; outline-offset: 2px; }
+        .btn-primary { background: #CC0000; color: white; padding: 12px 28px; border-radius: 8px; font-weight: 600; font-family: 'Lexend', sans-serif; transition: all 200ms ease; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+        .btn-primary:hover { background: #A30000; transform: translateY(-1px); box-shadow: 0 4px 6px rgba(204,0,0,0.3); }
+        a:focus-visible, button:focus-visible { outline: 3px solid #CC0000; outline-offset: 2px; }
         html { scroll-behavior: smooth; }
         .mobile-menu { transform: translateX(100%); transition: transform 300ms ease; }
         .mobile-menu.open { transform: translateX(0); }
@@ -365,7 +365,7 @@
             </div>
             <div class="border-t border-slate-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-gray-500 text-xs">KvK: 69183945 · BTW: NL8577.72.089.B.01</p>
-                <p class="text-gray-500 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="text-cta hover:text-sky-300 cursor-pointer transition-colors duration-200">Code Lieshout</a></p>
+                <p class="text-gray-500 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="text-cta hover:text-amber-300 cursor-pointer transition-colors duration-200">Code Lieshout</a></p>
             </div>
         </div>
     </footer>
